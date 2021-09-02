@@ -198,8 +198,8 @@ section {
     right: 0;
     position: absolute;
     z-index: -1;
-    transform: translate(1rem, 1rem);
-    width: 100%;
+    transform: translate(0.5rem, 0.5rem);
+    width: 90%;
     height: 100%;
     overflow-x: hidden;
 }
@@ -334,6 +334,10 @@ section {
 
 @media(min-width:768px) {
 
+    .container{
+        width: 668px;
+    }
+
     .mobile_hide {
         display: block;
     }
@@ -418,6 +422,11 @@ section {
 
 
 @media(min-width: 1024px) {
+
+    .container{
+        width: 900px;
+    }
+
     .navbar {
         padding: 0 2rem;
     }
